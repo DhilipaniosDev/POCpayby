@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		8DB1002E26CAA35400CFED77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1002C26CAA35400CFED77 /* Main.storyboard */; };
 		8DB1003026CAA35800CFED77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1002F26CAA35800CFED77 /* Assets.xcassets */; };
 		8DB1003326CAA35800CFED77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1003126CAA35800CFED77 /* LaunchScreen.storyboard */; };
+		8DB1003D26CAAE2500CFED77 /* GPBRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1003C26CAAE2500CFED77 /* GPBRSA.m */; };
+		A8C16B631BEBEDFDF0670055 /* Pods_payby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFC3F64877055B3B4AE692A /* Pods_payby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,12 @@
 		8DB1002F26CAA35800CFED77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB1003226CAA35800CFED77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB1003426CAA35800CFED77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB1003A26CAAE2400CFED77 /* payby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "payby-Bridging-Header.h"; sourceTree = "<group>"; };
+		8DB1003B26CAAE2500CFED77 /* GPBRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRSA.h; sourceTree = "<group>"; };
+		8DB1003C26CAAE2500CFED77 /* GPBRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBRSA.m; sourceTree = "<group>"; };
+		997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payby.release.xcconfig"; path = "Target Support Files/Pods-payby/Pods-payby.release.xcconfig"; sourceTree = "<group>"; };
+		ADFC3F64877055B3B4AE692A /* Pods_payby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payby.debug.xcconfig"; path = "Target Support Files/Pods-payby/Pods-payby.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C16B631BEBEDFDF0670055 /* Pods_payby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35E25800CA76F71DAF0DBDA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */,
+				997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85366B3CBF3B00D22685933C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFC3F64877055B3B4AE692A /* Pods_payby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DB1001A26CAA35400CFED77 = {
 			isa = PBXGroup;
 			children = (
 				8DB1002526CAA35400CFED77 /* payby */,
 				8DB1002426CAA35400CFED77 /* Products */,
+				35E25800CA76F71DAF0DBDA3 /* Pods */,
+				85366B3CBF3B00D22685933C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,8 @@
 		8DB1002526CAA35400CFED77 /* payby */ = {
 			isa = PBXGroup;
 			children = (
+				8DB1003B26CAAE2500CFED77 /* GPBRSA.h */,
+				8DB1003C26CAAE2500CFED77 /* GPBRSA.m */,
 				8DB1002626CAA35400CFED77 /* AppDelegate.swift */,
 				8DB1002826CAA35400CFED77 /* SceneDelegate.swift */,
 				8DB1002A26CAA35400CFED77 /* ViewController.swift */,
@@ -63,6 +93,7 @@
 				8DB1002F26CAA35800CFED77 /* Assets.xcassets */,
 				8DB1003126CAA35800CFED77 /* LaunchScreen.storyboard */,
 				8DB1003426CAA35800CFED77 /* Info.plist */,
+				8DB1003A26CAAE2400CFED77 /* payby-Bridging-Header.h */,
 			);
 			path = payby;
 			sourceTree = "<group>";
@@ -74,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB1003726CAA35800CFED77 /* Build configuration list for PBXNativeTarget "payby" */;
 			buildPhases = (
+				C366923B94B8AD442E44E7DB /* [CP] Check Pods Manifest.lock */,
 				8DB1001F26CAA35400CFED77 /* Sources */,
 				8DB1002026CAA35400CFED77 /* Frameworks */,
 				8DB1002126CAA35400CFED77 /* Resources */,
+				3579D17F0753E96D167E711E /* [CP] Embed Pods Frameworks */,
+				D42771BE6099C82420AAF2F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +132,7 @@
 				TargetAttributes = {
 					8DB1002226CAA35400CFED77 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -132,6 +167,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3579D17F0753E96D167E711E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C366923B94B8AD442E44E7DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payby-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42771BE6099C82420AAF2F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DB1001F26CAA35400CFED77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +233,7 @@
 			files = (
 				8DB1002B26CAA35400CFED77 /* ViewController.swift in Sources */,
 				8DB1002726CAA35400CFED77 /* AppDelegate.swift in Sources */,
+				8DB1003D26CAAE2500CFED77 /* GPBRSA.m in Sources */,
 				8DB1002926CAA35400CFED77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,18 +378,25 @@
 		};
 		8DB1003826CAA35800CFED77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KN95RT9T7;
 				INFOPLIST_FILE = payby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vjh.payby.payby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowmed.mycortexuat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "payby/payby-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,18 +404,24 @@
 		};
 		8DB1003926CAA35800CFED77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KN95RT9T7;
 				INFOPLIST_FILE = payby/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vjh.payby.payby;
+				PRODUCT_BUNDLE_IDENTIFIER = com.flowmed.mycortexuat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "payby/payby-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
