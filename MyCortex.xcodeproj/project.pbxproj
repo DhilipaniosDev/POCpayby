@@ -14,11 +14,11 @@
 		8DB1003026CAA35800CFED77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1002F26CAA35800CFED77 /* Assets.xcassets */; };
 		8DB1003326CAA35800CFED77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB1003126CAA35800CFED77 /* LaunchScreen.storyboard */; };
 		8DB1003D26CAAE2500CFED77 /* GPBRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB1003C26CAAE2500CFED77 /* GPBRSA.m */; };
-		A8C16B631BEBEDFDF0670055 /* Pods_payby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFC3F64877055B3B4AE692A /* Pods_payby.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8DB1002326CAA35400CFED77 /* payby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5E46E70CF4573137C0F883 /* Pods_MyCortex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCortex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB1002326CAA35400CFED77 /* MyCortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB1002626CAA35400CFED77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB1002826CAA35400CFED77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8DB1002A26CAA35400CFED77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,8 +29,9 @@
 		8DB1003A26CAAE2400CFED77 /* payby-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "payby-Bridging-Header.h"; sourceTree = "<group>"; };
 		8DB1003B26CAAE2500CFED77 /* GPBRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRSA.h; sourceTree = "<group>"; };
 		8DB1003C26CAAE2500CFED77 /* GPBRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBRSA.m; sourceTree = "<group>"; };
+		90EB7A2BD5776E77A4A2A87B /* Pods-MyCortex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCortex.debug.xcconfig"; path = "Target Support Files/Pods-MyCortex/Pods-MyCortex.debug.xcconfig"; sourceTree = "<group>"; };
 		997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payby.release.xcconfig"; path = "Target Support Files/Pods-payby/Pods-payby.release.xcconfig"; sourceTree = "<group>"; };
-		ADFC3F64877055B3B4AE692A /* Pods_payby.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payby.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE08117029232C67D14D34D /* Pods-MyCortex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCortex.release.xcconfig"; path = "Target Support Files/Pods-MyCortex/Pods-MyCortex.release.xcconfig"; sourceTree = "<group>"; };
 		DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payby.debug.xcconfig"; path = "Target Support Files/Pods-payby/Pods-payby.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8C16B631BEBEDFDF0670055 /* Pods_payby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +51,8 @@
 			children = (
 				DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */,
 				997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */,
+				90EB7A2BD5776E77A4A2A87B /* Pods-MyCortex.debug.xcconfig */,
+				CEE08117029232C67D14D34D /* Pods-MyCortex.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -58,7 +60,7 @@
 		85366B3CBF3B00D22685933C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADFC3F64877055B3B4AE692A /* Pods_payby.framework */,
+				6E5E46E70CF4573137C0F883 /* Pods_MyCortex.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -76,7 +78,7 @@
 		8DB1002426CAA35400CFED77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DB1002326CAA35400CFED77 /* payby.app */,
+				8DB1002326CAA35400CFED77 /* MyCortex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,24 +103,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DB1002226CAA35400CFED77 /* payby */ = {
+		8DB1002226CAA35400CFED77 /* MyCortex */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DB1003726CAA35800CFED77 /* Build configuration list for PBXNativeTarget "payby" */;
+			buildConfigurationList = 8DB1003726CAA35800CFED77 /* Build configuration list for PBXNativeTarget "MyCortex" */;
 			buildPhases = (
 				C366923B94B8AD442E44E7DB /* [CP] Check Pods Manifest.lock */,
 				8DB1001F26CAA35400CFED77 /* Sources */,
 				8DB1002026CAA35400CFED77 /* Frameworks */,
 				8DB1002126CAA35400CFED77 /* Resources */,
 				3579D17F0753E96D167E711E /* [CP] Embed Pods Frameworks */,
-				D42771BE6099C82420AAF2F8 /* [CP] Copy Pods Resources */,
+				2213695F86F4FCA54A52AFA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = payby;
+			name = MyCortex;
 			productName = payby;
-			productReference = 8DB1002326CAA35400CFED77 /* payby.app */;
+			productReference = 8DB1002326CAA35400CFED77 /* MyCortex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DB1001E26CAA35400CFED77 /* Build configuration list for PBXProject "payby" */;
+			buildConfigurationList = 8DB1001E26CAA35400CFED77 /* Build configuration list for PBXProject "MyCortex" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DB1002226CAA35400CFED77 /* payby */,
+				8DB1002226CAA35400CFED77 /* MyCortex */,
 			);
 		};
 /* End PBXProject section */
@@ -168,21 +170,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2213695F86F4FCA54A52AFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3579D17F0753E96D167E711E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C366923B94B8AD442E44E7DB /* [CP] Check Pods Manifest.lock */ = {
@@ -200,28 +219,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-payby-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyCortex-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D42771BE6099C82420AAF2F8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-payby/Pods-payby-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,7 +380,7 @@
 		};
 		8DB1003826CAA35800CFED77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD1D1218445E0E2671F0783D /* Pods-payby.debug.xcconfig */;
+			baseConfigurationReference = 90EB7A2BD5776E77A4A2A87B /* Pods-MyCortex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,7 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KN95RT9T7;
 				INFOPLIST_FILE = payby/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,7 +406,7 @@
 		};
 		8DB1003926CAA35800CFED77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 997A93D8C2645DC040D70DB7 /* Pods-payby.release.xcconfig */;
+			baseConfigurationReference = CEE08117029232C67D14D34D /* Pods-MyCortex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -413,7 +415,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KN95RT9T7;
 				INFOPLIST_FILE = payby/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DB1001E26CAA35400CFED77 /* Build configuration list for PBXProject "payby" */ = {
+		8DB1001E26CAA35400CFED77 /* Build configuration list for PBXProject "MyCortex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DB1003526CAA35800CFED77 /* Debug */,
@@ -439,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DB1003726CAA35800CFED77 /* Build configuration list for PBXNativeTarget "payby" */ = {
+		8DB1003726CAA35800CFED77 /* Build configuration list for PBXNativeTarget "MyCortex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DB1003826CAA35800CFED77 /* Debug */,

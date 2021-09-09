@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.1)
+  - PXRPPayByPayment (1.2.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - PXRPPayByPayment
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PXRPPayByPayment
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  PXRPPayByPayment: 1c2dce6e45b87e3b0a6baeadc40d61041fc8966a
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 62a24b80c26fd1f9568f67c8430d80c436c9d548
+
+COCOAPODS: 1.10.1

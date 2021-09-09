@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MyCortex/Pods-MyCortex-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_ROOT}/PXRPPayByPayment/SLDPayByPayment/SLDPayByPayment.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
